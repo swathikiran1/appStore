@@ -1,0 +1,66 @@
+.app-container {
+  background-image: linear-gradient(to bottom, #fff1eb, #ace0f9);
+  min-height: 100vh;
+  max-height: 100%;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.heading {
+  text-align: center;
+  color: #1e293b;
+  font-size: 45px;
+  font-family: 'Bree Serif';
+  margin-bottom: 40px;
+}
+
+.input-container {
+  display: flex;
+  align-items: center;
+  border: solid 1px #7b8794;
+  border-radius: 2px;
+  padding: 4px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.input {
+  font-size: 17px;
+  color: #1e293b;
+  font-weight: 500;
+  outline: none;
+  border: none;
+  background-color: transparent;
+  width: 250px;
+}
+
+.search-icon {
+  height: 25px;
+  width: 25px;
+}
+
+.tabs-list {
+  list-style-type: none;
+  padding-left: 20px;
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 5px;
+}
+
+.apps-list {
+  list-style-type: none;
+  padding-left: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 80%;
+}
+
+@media screen and (max-width: 767px) {
+  .apps-list {
+    width: 100%;
+  }
+}

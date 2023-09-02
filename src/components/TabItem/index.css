@@ -1,0 +1,20 @@
+.tab-item-btn {
+  cursor: pointer;
+  color: #7b8794;
+  background-color: transparent;
+  font-size: 16px;
+  font-family: 'Roboto';
+  font-weight: 500;
+  border: none;
+  border-bottom: solid 3px #dfe2e5;
+  padding: 15px;
+  padding-bottom: 6px;
+}
+
+.tab-item-btn1 {
+  color: #2563eb;
+  border: none;
+  border-bottom: solid 2px #2563eb;
+  padding: 10px;
+  padding-bottom: 12px;
+}
